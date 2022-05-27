@@ -1,3 +1,4 @@
+# possible 3 x 3 magic squares
 possMagicSquares = [[[8, 1, 6],
                      [3, 5, 7],
                      [4, 9, 2]],
