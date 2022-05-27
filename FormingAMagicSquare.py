@@ -35,34 +35,37 @@ costT = 0
 # list to get min. cost magic sq., 'comp' for compare
 comp = [] 
 
+# since possible magic square for a 3 x 3 sqaure are only 8
+# so the length for first loop is 8
 for i in range(8):
+
+    # nested for loop for checking with each of the 8 magic sqaures and calculating cost
+    # of converting the 3 x 3 square into a magic square
     for j in range(3):
         for k in range(3):
+
+            # this variable finds cost of replacing the elements
             cost = sq[j][k] - possMagicSquares[i][j][k];
+
+            # to get total cost of changing the square into magic square 
             if cost < 0:
+
+                # since in question it is cleary mentioned that cost is non - negative
+                # so if it is negative we'll make it positive and keep totalling the cost
                 cost *= -1
+
+                # this costT variable is keeping total cost of changing the square into magic square 
                 costT += cost
             else:
                 costT += cost
-            # print(i, j, k)
-            # print(sq[j][k], possMagicSquares[i][j][k])
-            # print(cost, costT)
+
+    # comp for compare this comp is a list which'll hold cost of changing square into magic square for
+    # each of the magic squares, from this we'll get the min. cost of changing the square into magic square
     comp.append(costT)
     costT = 0
 
-# print(comp)
-
+# min. cost of changing the square into magic square
 minCost = min(comp)
 
+# print min. cost of changing the sqaure into magic square
 print(minCost)
-
-# iMinCostMagicSq = comp.index(minCost)
-
-# print(iMinCostMagicSq)
-
-# if len(comp) == len(possMagicSquares):
-#     print(True)
-
-# minCostMagicSq = possMagicSquares[iMinCostMagicSq]
-
-# print(minCostMagicSq)
