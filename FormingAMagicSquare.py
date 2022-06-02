@@ -53,7 +53,7 @@ for i in range(8):
                 # since in question it is cleary mentioned that cost is non - negative
                 # so if it is negative we'll make it positive and keep totalling the cost
                 cost *= -1
- 
+
                 # this costT variable is keeping total cost of changing the square into magic square 
                 costT += cost
             else:
