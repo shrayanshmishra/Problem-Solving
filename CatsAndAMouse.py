@@ -1,4 +1,4 @@
-posCatA = 9 
+posCatA = 9
 posCatB = 7
 posMouse = 5
 
