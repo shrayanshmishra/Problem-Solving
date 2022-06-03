@@ -15,4 +15,4 @@ def dayOfProgrammer(year: int) -> str:
                 pass
             else:
                 return "12.09." + str(year)
-        return "13.09." + str(year) 
+        return "13.09." + str(year)
