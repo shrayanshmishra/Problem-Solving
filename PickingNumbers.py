@@ -22,7 +22,7 @@ for i in range(l1):
 
 # print(List)
 
-# length of 'List' list 
+# length of 'List' list
 l2 = len(List)
 
 # a list where we'll append the needed subarrays
