@@ -14,8 +14,6 @@ for kb in keyboards:
                 maxBuy = kb + usb
                 buyChkAr.append(maxBuy)
 
-# print(buyChkAr)
-
 if buyChkAr:            
     print(max(buyChkAr))
 else:            
