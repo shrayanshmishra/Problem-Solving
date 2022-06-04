@@ -1,4 +1,4 @@
-# given list of numbers 
+# given list of numbers
 nums = [2, 7, 11, 15]
 
 # given value of target
