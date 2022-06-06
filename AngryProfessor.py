@@ -18,7 +18,7 @@ for i in range(n):
         # count no. of students who came on time
         kcount += 1
 
-        # if students are equal to threshold no. of students then no cancellation of class
+        # if students are equal  to threshold no. of students then no cancellation of class
         if kcount == k:
 
             cancel_class = "NO"
