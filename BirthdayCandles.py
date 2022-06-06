@@ -7,7 +7,7 @@ for i in arr:
 
     # using python in-built function to find highest height
     # and if any candle has height equal to max. height
-    # counter is increemented
+    # counter is incremented
     if i == max(arr):
         c += 1
 
