@@ -23,7 +23,7 @@ for i in range(sizeOfSocksArr):
             # whichever color we encounter while traversing we start counting no. of socks of that color
             if socksArr[i] == socksArr[j]:
                 
-                # increementing counter thereby counting total no. of socks
+                # incrementing counter thereby counting total no. of socks
                 noOfSocks += 1
 
         # the array is traversed and we've counter the 
