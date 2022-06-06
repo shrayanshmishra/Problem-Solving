@@ -1,4 +1,3 @@
-# let's say given number is 93212
 num = -121
 
 # to check if rev. of number is read same as number we'll type cast the number to a string
