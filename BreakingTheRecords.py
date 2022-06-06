@@ -12,7 +12,7 @@ cMin = cMax = 0
 for i in scores:
 
     # each time her score is better than her best score
-    # we increement cMax
+    # we increment cMax
     if i > max_:
 
         # when score is more than max. score we update max. score with the new max. score
@@ -20,7 +20,7 @@ for i in scores:
         cMax += 1
 
     # each time her scores is less than her min. score
-    # we increement cMin
+    # we increment cMin
     if i < min_:
 
         # when score is less than min. score we update min. score with the new min. score
