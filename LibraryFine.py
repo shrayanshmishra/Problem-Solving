@@ -13,4 +13,4 @@ if y1 == y2:
         fine = 500 * (m1 - m2)
 elif y1 > y2:
     fine = 10000
-print(fine) 
+print(fine)
